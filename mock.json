@@ -1,0 +1,140 @@
+[{
+    "request": {
+      "uri": "/profile"
+    },
+    "response": {
+      "json": {
+        "username": "宋仲基",
+        "nick": "",
+        "avatar": "http://localhost:4000/images/MrSong.jpg",
+        "background": "http://localhost:4000/images/MrSongBG.jpg"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/tweets"
+    },
+    "response": {
+      "json": {
+        "tweets": [{
+          "content": "Nice to meet you",
+          "images": [
+            "http://localhost:4000/images/pic1.jpg",
+            "http://localhost:4000/images/pic2.jpg",
+            "http://localhost:4000/images/pic3.jpg"
+          ],
+          "sender": {
+            "username": "宋仲基",
+            "nick": "",
+            "avatar": "http://localhost:4000/images/MrSong.jpg"
+          },
+          "comments": [{
+            "content": "This is omment",
+            "sender": {
+              "username": "宋仲基",
+              "nick": "",
+              "avatar": "http://localhost:4000/images/MrSong.jpg"
+            }
+          }]
+        }, {
+          "content": "Nice to meet you",
+          "images": [
+            "http://localhost:4000/images/pic1.jpg",
+            "http://localhost:4000/images/pic2.jpg",
+            "http://localhost:4000/images/pic3.jpg"
+          ],
+          "sender": {
+            "username": "宋仲基",
+            "nick": "",
+            "avatar": "http://localhost:4000/images/MrSong.jpg"
+          },
+          "comments": [{
+            "content": "This is omment",
+            "sender": {
+              "username": "宋仲基",
+              "nick": "",
+              "avatar": "http://localhost:4000/images/MrSong.jpg"
+            }
+          }]
+        }, {
+          "content": "Nice to meet you",
+          "images": [
+            "http://localhost:4000/images/pic1.jpg",
+            "http://localhost:4000/images/pic2.jpg",
+            "http://localhost:4000/images/pic3.jpg"
+          ],
+          "sender": {
+            "username": "宋仲基",
+            "nick": "",
+            "avatar": "http://localhost:4000/images/MrSong.jpg"
+          },
+          "comments": [{
+            "content": "This is omment",
+            "sender": {
+              "username": "宋仲基",
+              "nick": "",
+              "avatar": "http://localhost:4000/images/MrSong.jpg"
+            }
+          }]
+        }]
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/images/MrSong.jpg"
+    },
+    "response": {
+      "file": {
+        "name": "MrSong.jpg"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/images/MrSongBG.jpg"
+    },
+    "response": {
+      "file": {
+        "name": "MrSongBG.jpg"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/images/pic1.jpg"
+    },
+    "response": {
+      "file": {
+        "name": "pic1.jpg"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/images/pic2.jpg"
+    },
+    "response": {
+      "file": {
+        "name": "pic2.jpg"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "uri": "/images/pic3.jpg"
+    },
+    "response": {
+      "file": {
+        "name": "pic3.jpg"
+      }
+    }
+  }
+]
